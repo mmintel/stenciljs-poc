@@ -1,0 +1,5 @@
+[context.production]
+  command = "npm run build"
+  [context.production.environment]
+    CONTENTFUL_SPACE_ID = "space id"
+    CONTENTFUL_ACCESS_TOKEN = "access token"
